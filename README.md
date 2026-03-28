@@ -1,17 +1,17 @@
 # 📝 Aptos Todo — Powered by Shelby Protocol
 
-A decentralized to-do list app built on **Aptos** using **Shelby blob storage**.  
-Every task tersimpan sebagai blob di Shelby Protocol — terdesentralisasi, permanen, dan tanpa server.
+A decentralized to-do list app built on **Aptos** using **Shelby blob storage**.
+Every task is stored as a blob on Shelby Protocol, decentralized, permanent, and serverless.
 
 ---
 
 ## ✨ Features
 
-- ✅ Tambah task baru
-- ✔️ Tandai task sebagai selesai
-- 🗑️ Hapus task
+- ✅ Add new tasks
+- ✔️ Mark tasks as completed
+- 🗑️ Delete tasks
 - 👛 Petra Wallet integration
-- 📦 Data disimpan di Shelby blob storage
+- 📦 Data stored on Shelby blob storage
 - 📊 Live stats (total / pending / done)
 
 ---
@@ -33,7 +33,7 @@ Every task tersimpan sebagai blob di Shelby Protocol — terdesentralisasi, perm
 ```
 aptos-todo-shelby/
 ├── src/
-│   ├── main.tsx        # Entry point + providers
+│   ├── main.tsx        # Entry point and providers
 │   ├── App.tsx         # Main app component
 │   ├── App.module.css  # Styles
 │   └── index.css       # Global styles
@@ -41,17 +41,17 @@ aptos-todo-shelby/
 ├── package.json
 ├── vite.config.ts
 ├── tsconfig.json
-├── .env.example        # Template env
+├── .env.example        # Environment template
 └── .gitignore
 ```
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 Getting Started
 
-### 1. Clone repo
+### 1. Clone the repository
 ```bash
-git clone https://github.com/USERNAME/aptos-todo-shelby.git
+git clone https://github.com/Parkelit/aptos-todo-shelby.git
 cd aptos-todo-shelby
 ```
 
@@ -64,22 +64,21 @@ npm install
 ```bash
 cp .env.example .env
 ```
-Buka file `.env`, ganti dengan API key dari [Geomi Dashboard](https://geomi.dev):
+Open `.env` and replace with your API key from [Geomi Dashboard](https://geomi.dev):
 ```
-VITE_SHELBY_API_KEY=api_key_kamu_disini
+VITE_SHELBY_API_KEY=your_api_key_here
 ```
 
-### 4. Jalankan di browser
+### 4. Run the app
 ```bash
 npm run dev
 ```
-
-Buka **http://localhost:5173** di browser.
+Open **http://localhost:5173** in your browser.
 
 ### 5. Connect Wallet
-- Install [Petra Wallet](https://petra.app) di Chrome
-- Switch ke **Shelbynet** di settings Petra
-- Connect wallet di app → mulai tambah task!
+- Install [Petra Wallet](https://petra.app) on Chrome
+- Switch to **Shelbynet** in Petra settings
+- Connect your wallet and start adding tasks
 
 ---
 
